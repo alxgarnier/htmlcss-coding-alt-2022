@@ -19,7 +19,10 @@
     <h2>ici une section</h2>
 
     <article>
-      <img src="https://placekitten.com/g/500/500" alt="Mon image de chat">
+      <figure>
+        <img src="https://placekitten.com/g/500/500" alt="Mon image de chat" title="image de chat">
+        <figcaption>Le chat de Alex</figcaption>
+      </figure>    
       <h3>Titre de l'article</h3>
       <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Recusandae dicta iste mollitia officiis id atque quas quis modi odio repellat hic, nam voluptatem porro autem at libero dolorum quo assumenda.</p>
       <p>Lorem ipsum dolor sit, amet <em>consectetur</em> adipisicing elit. Excepturi modi, est rerum iure optio accusantium explicabo fugit quam obcaecati a.</p>
@@ -44,7 +47,48 @@
     </ol>
 
     <h4>Liens</h4>
-    <p>Lorem ipsum dolor sit amet <a href="https://placekitten.com/" target="_blank">consectetur</a> adipisicing elit. Illum, dolorem.</p>
+    <p>Lorem ipsum <span class="">dolor</span> sit amet <a href="https://placekitten.com/" target="_blank" title="Lien vers le site Placekitten">consectetur</a> adipisicing elit. Illum, dolorem.</p>
+
+    <h4>Balises inline vs balises Block</h4>
+    <a href="#">Lorem</a><a href="#">Lorem</a><a href="#">Lorem</a><a href="#">Lorem</a>
+    <p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p>
+
+    <h4>Les tableaux</h4>
+    <table>
+      <!-- En-tête du tableau -->
+      <thead>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Âge</th>
+        <th>Sexe</th>
+      </thead>
+      <!-- Fin En-tête du tableau -->
+
+      <!-- Corps du tableau -->
+      <tbody>
+        <tr>
+          <td>Garnier</td>
+          <td>Alexandre</td>
+          <td>39</td>
+          <td>M</td>
+        </tr>
+
+        <tr>
+          <td>Cruise</td>
+          <td>Tom</td>
+          <td>42</td>
+          <td>M</td>
+        </tr>
+
+        <tr>
+          <td>Semedo</td>
+          <td>Elisa</td>
+          <td>17</td>
+          <td>F</td>
+        </tr>
+      </tbody>
+      <!-- Fin du corps du tableau -->
+    </table>
 
   </section>
   
