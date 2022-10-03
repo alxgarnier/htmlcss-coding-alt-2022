@@ -90,6 +90,75 @@
       <!-- Fin du corps du tableau -->
     </table>
 
+    <h4>Les formulaires</h4>
+    <form method="post" action="inscription.php">
+
+      <p>
+        <label for="monsieur">Monsieur</label>
+        <input type="radio" name="civ" id="monsieur">
+
+        <label for="madame">Madame</label>
+        <input type="radio" name="civ" id="madame">
+      </p>
+
+      <p>
+        <label for="prenom">Prénom</label><br/>
+        <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+      </p>
+      
+      <p>
+        <label for="nom">Nom</label><br/>
+        <input type="text" name="nom" id="nom">
+      </p>
+      
+      <p>
+        <label for="email">Email</label><br/>
+        <input type="email" name="email" id="email">
+      </p>
+      
+      <p>
+        <label for="tel">Téléphone</label><br/>
+        <input type="tel" name="telephone" id="tel">
+      </p>
+      
+      <p>
+        <label for="pass">Mot de passe</label><br/>
+        <input type="password" name="password" id="pass">
+      </p>
+
+      <p>
+        Centres d'intérêt <br/>  
+        <label for="Cinema">Cinema</label>
+        <input type="checkbox" name="hobbies" id="Cinema" value="Cinema">
+
+        <label for="Manga">Manga</label>
+        <input type="checkbox" name="hobbies" id="Manga" value="Manga">
+
+        <label for="Cuisine">Cuisine</label>
+        <input type="checkbox" name="hobbies" id="Cuisine" value="Cuisine">
+      </p>
+
+      <p>
+        <label for="race">Races de chat</label><br/>
+        <select name="race" id="race">
+          <option value="chartreux">Chartreux</option>
+          <option value="siamois">Siamois</option>
+          <option value="maincoon">Maincoon</option>
+        </select>
+      </p>
+
+      </select>
+
+      <p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Envoyer">
+      </p>
+      
+    </form>
+
   </section>
   
   <footer>
