@@ -27,9 +27,28 @@
   padding: 10px;
   margin: 0 5px;
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .menu-nav a:hover{
   color: #ffc0cb;
   background-color: #111111;
+}
+
+.carre-bleu{
+  width: 800px;
+  height: 900px;
+  background-color: blue;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+.carre-rouge{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  right: 50px;
+  top: 200px; 
 }
