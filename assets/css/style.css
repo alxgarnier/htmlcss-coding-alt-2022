@@ -1,3 +1,35 @@
-#section-1-title{
-  color: blue;
+#logo{
+  width:400px;
+}
+
+#main-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-nav{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .menu-nav > li{
+  display: inline-block;
+} */
+
+.menu-nav a{
+  font-family: 'Playfair Display', 'Arial', serif;
+  color: #111111;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-nav a:hover{
+  color: #ffc0cb;
+  background-color: #111111;
 }
